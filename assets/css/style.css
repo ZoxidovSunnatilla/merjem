@@ -1,0 +1,815 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+header{
+   position: relative;
+
+}
+header .background {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/travel2.jpg");
+    filter: blur(1px);
+    position: relative;
+    z-index: 1;
+}
+header .parent_logo{
+    position: absolute;
+    z-index: 2;
+    width: 60%;
+    top: 0px;
+    height: 300px;
+    background-color: #ffffffd2;
+    padding-left: 5%;
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+}
+header .parent_logo .logo_merjem{
+    background-image: url("../img/Logo.jpg");
+    background-position: center center;
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 90%;
+}
+header .parent_logo .logo_uzb{
+    background-image: url("../img/maxresdefault-removebg-preview.png");
+    background-position: center center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    width: 65%;
+    height: 90%;
+}
+header .parent_product{
+    top: 300px;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    width: 80%;
+    height: 300px;
+    background-color: #000000d2;
+    padding-right: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+header .parent_product h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 132px;
+    line-height: 50px;
+    color: #F6A429;
+    font-weight: bold;
+}
+header .parent_text {
+    width: 60%;
+    top: 750px;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+}
+header .parent_text p { 
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    color: #fff;
+    opacity: 12345678;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+.blog{
+    width: 100%;
+    height: 845px;
+}
+.blog .parent_blog{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.blog .parent_blog .left{
+    width: 50%;
+    height: 100%;
+}
+.blog .parent_blog .left .blog_header{
+    width: 100%;
+    height: 50%;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+}
+.blog .parent_blog .left .blog_header .blog_logo{
+    background-image: url("../img/Logo.jpg");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 50%;
+}
+.blog .parent_blog .left .blog_header .blog_title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    color: #000;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+}
+.blog .parent_blog .left .blog_footer{
+    width: 100%;
+    height: 50%;
+    background-color: #20252F;
+    padding: 15px;
+}
+.blog .parent_blog .left .blog_footer .text_footer{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+.blog .parent_blog .right{
+    width: 50%;
+    height: 100%;
+    background-image: url("../img/blog.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    filter: blur(1px);
+}
+.catalog{
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+.catalog .parent_left{
+    width: 65%;
+    height: 100vh;
+}
+.catalog .parent_left .top{
+    width: 100%;
+    height: 300px;
+    padding-left: 10%;
+    display: flex;
+    align-items: center;
+    background: #F6A429;
+}
+.catalog .parent_left .top h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 120px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.catalog .parent_left .bb h1{
+    font-size: 100px !important;
+    }
+.catalog .parent_left .bottom {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+.catalog .parent_left .bottom .logo{
+    background-image: url("../img/Logo.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 50%;
+}
+.catalog .parent_right{
+    position: absolute;
+    z-index: 2;
+    right: 10%;
+    bottom: 10%;
+    width: 40%;
+    height: 80%;
+    border: 15px solid #20252F ;
+    border-radius: 50px;
+    background-image: url("../img/nuts.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 150% 100%;
+}
+.dry_fruits{
+    width: 100%;
+    height: 100vh;
+}
+.dry_fruits .parent_dry{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.dry_fruits .parent_dry .dry_left{
+    width: 50%;
+    height: 100%;
+}
+.dry_fruits .parent_dry .dry_right{
+    width: 50%;
+    height: 100%;
+    background: #545454;
+    border-left: 5px solid #F6A429;
+    border-right: 5px solid #F6A429;
+}
+.dry_fruits .parent_dry .dry_left .top{
+    height: 40%;
+    width: 100%;
+    padding-top: 15%;
+}
+.dry_fruits .parent_dry .dry_right .top{
+    height: 40%;
+    width: 100%;
+    padding-top: 15%;
+}
+.dry_fruits .parent_dry .dry_left .top .parent_img{
+    width: 100%;
+    height: 100%;
+    border: 3px solid #F6A429;
+    border-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dry_fruits .parent_dry .dry_left .top .parent_img .nuts{
+    background-image: url("../img/nutss.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 200% 230%;
+    margin-top: 20px;
+    width: 50%;
+    height: 90%;
+}
+
+.dry_fruits .parent_dry .dry_left .top .parent_img .uzb{
+    background-image: url("../img/maxresdefault-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 40%;
+    height: 90%;
+}
+.dry_fruits .parent_dry .dry_left  .bottom{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.dry_fruits .parent_dry .dry_left  .bottom p{
+    font-size: 60px;
+    width: 80%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+
+}
+.dry_fruits .parent_dry .dry_right .top .parent_bg{
+    width: 100%;
+    height: 100%;
+    border: 3px solid #F6A429;
+    border-right: 0px;
+    border-left: 0px;
+    background-image: url("../img/dry.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 170%;
+}
+.dry_fruits .parent_dry .dry_right  .bottom{
+    height: 60%;
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.dry_fruits .parent_dry .dry_right  .bottom .text_one{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #F6A429;
+}
+.dry_fruits .parent_dry .dry_right  .bottom .text_two{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 20px;
+}
+.catalog_fruit{
+    width: 100%;
+    height: 100vh;
+    background-color: #94969B;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.catalog_fruit .parent_fruit{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.catalog_fruit .parent_fruit .left{
+    margin: 80px 0;
+    width: 45%;
+}
+.catalog_fruit .parent_fruit .right{
+    margin: 80px 0;
+    width: 45%;
+}
+
+.catalog_fruit .parent_fruit .left .child{
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+.catalog_fruit .parent_fruit .right .child{
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+.catalog_fruit .parent_fruit .left .child .imgFruit{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../img/raisins.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.catalog_fruit .parent_fruit .right .child .imgFruit{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../img/raisins.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.catalog_fruit .parent_fruit .child .text_one{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #F6A429;
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.catalog_fruit .parent_fruit .child .text_two{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #171616;
+    font-size: 17px;
+    margin-bottom: 00px;
+}
+.mb{
+    margin-bottom: 0 !important;
+}
+.catalog_fruit .parent_fruit .center{
+    width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.catalog_fruit .parent_fruit .center h1{
+    font-family: "Montserrat", sans-serif;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.catalog_fruit2 .parent{
+    padding-top: 80px;
+    padding-bottom: 50px;
+
+}
+.catalog_fruit2 .textEnd{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-right: 200px;
+}
+.catalog_fruit2 .textEnd h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+.catalog_fruit2 .parent .child .imgFruit{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../img/raisins.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.catalog_fruit2 .parent .child .text_one{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #F6A429;
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.catalog_fruit2 .parent .child .text_two{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #171616;
+    font-size: 17px;
+    margin-bottom: 00px;
+}
+.catalog_fruit2 .parent  .child{
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+.catalog_fruit2{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #94969B;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.catalog_fruit2 .parent .end2{
+    display: flex !important;
+    justify-content: end !important;
+    margin-left: auto !important;
+}
+.fruits_blog{ 
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.fruits_blog .fruits_bg{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 400px;
+    height: 400px;
+    background: #20252F;
+    z-index: 1;
+}
+.fruits_blog .parent{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.fruits_blog .parent .left{
+    width: 40%;
+    display: flex;
+    gap: 30px;
+}
+.fruits_blog .parent .left .blog_one{
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 25px;
+}
+.fruits_blog .parent .left .blog_two{
+    width: 33%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.fruits_blog .parent .left .imgs{
+    width: 170px;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-image: url("../img/qovun.svg");
+    background-position: center center;
+    background-size: 100% 100%;
+    border-radius: 100%;
+}
+.fruits_blog .parent .left .img2{
+    background-image: url("../img/U634edd158cf6418a8b98c07fb6c75ff0w.jpg");
+}
+.fruits_blog .parent .left .img3{
+    background-image: url("../img/post_592ae858de6e8-550x366.jpg");
+    background-size: 125% 125%;
+}
+.fruits_blog .parent .left .img4{
+    background-image: url("../img/86.jpg");
+}
+.fruits_blog .parent .right{
+    width: 50%;
+    padding-top: 150px;
+}
+.fruits_blog .parent .right .text_one{
+    font-family: "Montserrat", sans-serif;
+    color: #F6A429;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.fruits_blog .parent .right .text_two{
+    font-family: "Montserrat", sans-serif;
+    color: #20252F;
+    font-weight: 500;
+    font-size: 20px;
+}
+.fruits_variant{
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-height: 100vh;
+    background-color: #545454;
+
+}
+.fruits_variant .parent{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.fruits_variant .parent .parent_variant{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.fruits_variant .parent .parent_variant .child{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.fruits_variant .parent .parent_variant .child .variantImg{
+    width: 207px;
+    height: 207px;
+    border-radius: 100%;
+    background-image: url("../img/uru.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 20px;
+}
+.fruits_variant .parent .parent_variant .child .text_variant{
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    color: #F6A429;
+    font-weight: 700;
+    text-align: center;
+}
+.fruits_variant .parent .parent_text{
+    width: 85px;
+    display: flex;
+    align-items: start;
+    padding-top: 150px;
+}
+.fruits_variant .parent .parent_text h1{
+    font-family: "Montserrat", sans-serif;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    color: #F6A429;
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.fruits_variantTwo{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #20252F;
+}
+.fruits_variantTwo .bigText{
+    padding: 30px 0px;
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 120px;
+    font-weight: 500;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+.fruits_variantTwo .parent_one{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 5%;
+}
+.fruits_variantTwo .child {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.fruits_variantTwo   .child .variantImg{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    background-image: url("../img/BigQovun.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0px;
+}
+.fruits_variantTwo  .child .text_variant{
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    color: #F6A429;
+    font-weight: 700;
+    text-align: center;
+}
+.fruits_variantTwo .parent_two{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15%;
+    padding-left: 5%;
+}
+.fruits_blog .parent .left .blog_one2{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.fruits_blog .parent .left .blog_two2{
+    width: 33%;
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.fruits_blog .parent .left .blog_one3{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    gap: 40px;
+}
+.fruits_blog .parent .right2{
+    width: 50%;
+    padding-top: 130px;
+}
+.fruits_blog .parent .right2 .text_one2{
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    font-weight: 700;
+    font-size: 70px;
+    margin-bottom: 70px;
+}
+.fruits_blog .parent .right2 .text_two2{
+    font-family: "Montserrat", sans-serif;
+    color: #20252F;
+    font-weight: 500;
+    font-size: 20px;
+}
+.fruits_variant .parent .parent_text2{
+    width: 85px;
+    display: flex;
+    align-items: start;
+    padding-top: 10px;
+}
+.fruits_variant .parent .parent_text2 h1{
+    font-family: "Montserrat", sans-serif;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    color: #F6A429;
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.fruits_variant .jBetween{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.fruits_variant .jEvenly{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+footer .parent{
+    display: flex;
+
+}
+footer .parent .left{
+    width: 45%;
+}
+footer .parent .right{
+    width: 55%;
+    height: 450px;
+    border-radius: 50px;
+    background-image: url("../img/contact.svg");
+    background-position: center;
+    background-size: 100%;
+    margin-top: 157.5px;
+    margin-left: -10px;
+    margin-right: 5%;
+}
+footer .parent .left .flex{
+    width: 100%;
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+footer .parent .left .flex .text_one{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 0;
+}
+footer .parent .left .flex .bgLogo{
+    width: 315px;
+    height: 130px;
+    background-image: url("../img/Logo.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+footer .parent .left .parent_info {
+    width: 100%;
+    padding-left: 5%;
+    padding: 50px 70px;
+    background: #F6A429;
+}
+footer .parent .left .parent_info .flex_info{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+footer .parent .left .parent_info  .text_two{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+@media screen and (min-width: 1390px) and (max-width: 1500px) {
+    header .parent_product h1 {
+        font-size: 95px;
+    }
+    header .parent_product {
+        height: 250px;
+    }
+    .blog .parent_blog .left .blog_footer .text_footer {
+        font-size: 19px;
+    }
+    .catalog .parent_right {
+        right: 5%;
+        width: 45%;
+    }
+    .catalog .parent_left .top h1 {
+        font-size: 80px;
+    }
+    .catalog .parent_left .bb h1 {
+        font-size: 80px !important;
+    }
+    .dry_fruits .parent_dry .dry_right .bottom .text_two {
+        font-size: 18px;
+    }
+    .catalog_fruit .parent_fruit .left .child .imgFruit {
+        height: 195.33px;
+    }
+    .catalog_fruit .parent_fruit .left .child {
+        align-items: center;
+    }
+    .fruits_variantTwo .bigText {
+        font-size: 90px;
+    }
+    footer .parent .left .flex .bgLogo {
+        width: 246px;
+    }
+    footer .parent .left .flex .text_one {
+        font-size: 45px;
+    }
+    footer .parent .left .parent_info {
+        padding: 40px 70px;
+    }
+    footer .parent .right {
+        margin-top: 146px;
+        margin-left: -18px;
+        background-size: 100% 100%;
+    }
+}
